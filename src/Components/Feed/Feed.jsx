@@ -27,7 +27,7 @@ const Feed = ({ category }) => {
         return (
           <Link
             key={index}
-            to={`video/${item.snippet.categoryID}/${item.id}`}
+            to={`video/${item.snippet.categoryId}/${item.id}`}
             className="card"
           >
             <img src={item.snippet.thumbnails.medium.url} alt="" />
